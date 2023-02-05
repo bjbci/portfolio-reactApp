@@ -7,10 +7,11 @@ import ContactPage from './pages/contact'
 import PortfolioPage from './pages/portfolio'
 import ResumePage from './pages/resume'
 
-
+//PARENT COMPONENT
 function App() {
 const [view, setView] =useState('about')
 
+//ROUTING TO DIFFERENT VIEWS
 console.log(view)
 const renderView =()=>{
 if(view==='about'){

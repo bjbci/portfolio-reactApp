@@ -2,12 +2,13 @@ const Navbar= ({view, setView})=>{
     // console.log(view, setView)
     return (
 <nav className="navbar navbar-expand-lg navbar-light bg-success">
-    <div className="container-fluid">
-        <a className="navbar-brand" href="#">Portfolio</a>
+    <div className="container">
+        <a className="navbar-brand" href="#">BRIAN</a>
             <ul className="navbar-nav">
             <li className="nav-item">
                 <a 
-                    className="nav-link"
+                    onClick={() =>setView('about')}
+                    className={`nav-link ${view==='about' ? "active fw-bold" : ''}`}
                     href="#"
              >
                 ABOUT ME
@@ -15,7 +16,8 @@ const Navbar= ({view, setView})=>{
             </li>
             <li className="nav-item">
                  <a 
-                    className="nav-link"
+                    onClick={() =>setView('contact')}
+                    className={`nav-link ${view==='contact' ? "active fw-bold" : ''}`}
                     href="#"
              >
                 CONTACT
@@ -23,7 +25,8 @@ const Navbar= ({view, setView})=>{
             </li>
             <li className="nav-item">
                  <a 
-                    className="nav-link" 
+                    onClick={() =>setView('portfolio')}
+                    className= {`nav-link ${view==='portfolio' ? "active fw-bold" : ''}`}
                     href="#"
             >
                 PORTFOLIO
@@ -31,7 +34,8 @@ const Navbar= ({view, setView})=>{
             </li>
             <li className="nav-item">
                  <a 
-                    className="nav-link" 
+                    onClick={() =>setView('resume')}
+                    className={`nav-link ${view==='resume' ? "active fw-bold" : ''}`} 
                     href="#"
             >
                 RESUME
