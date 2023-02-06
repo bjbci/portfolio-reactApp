@@ -7,6 +7,7 @@ const CardApps= ({image, appName})=>{
 
            <div style={{backgroundImage: `url(${image})`}} className="background-image"></div>
            <h2> {appName}</h2>
+         
 
        </div>
 
