@@ -1,3 +1,5 @@
+import React from 'react'
+
 const Navbar= ({view, setView})=>{
     // console.log(view, setView)
     return (

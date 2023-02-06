@@ -44,28 +44,40 @@ const Footer= ({view,setVIew})=>{
 
 <div className="row align-items-end">
 <div className="col">
+{/* <a 
+ className="nav-link" 
+ href="#"
+>
+ <i className="bi bi-github"></i>
+ </a> */}
+</div>
+<div className="col display:flex flex-direction:column justify-content:center align-items:center">
 <a 
  className="nav-link" 
  href="#"
 >
  <i className="bi bi-github"></i>
- </a>
-</div>
-<div className="col">
+ </a> 
 <a 
  className="nav-link"
 href="#"
 >
 <i className="bi bi-linkedin"></i>
 </a>
-</div>
-<div className="col">
 <a 
  className="nav-link"
  href="#"
  >
 <i className="bi bi-envelope" ></i>
  </a>
+</div>
+<div className="col">
+{/* <a 
+ className="nav-link"
+ href="#"
+ >
+<i className="bi bi-envelope" ></i>
+ </a> */}
 </div>
 </div>
 

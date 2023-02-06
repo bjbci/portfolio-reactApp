@@ -1,7 +1,8 @@
 import {useState } from 'react'
-
+///////components
 import Navbar from './components/navbar'
 import Footer from './components/footer'
+/////////////pages
 import AboutPage from './pages/about'
 import ContactPage from './pages/contact'
 import PortfolioPage from './pages/portfolio'

@@ -3,7 +3,10 @@ import {useState} from 'react'
 
 const Portfolio= props=>{
     return (
-null
+        <div className="apps">
+            <h1>MY PORTFOLIO</h1>
+            <div className="app-list"></div>
+        </div>
 
     )
     
