@@ -1,6 +1,7 @@
 import Input from './input'
 
-const FormMessage=  ({term, setTerm, handleSubmit})=>{
+//const FormMessage=  ({...props})=>{
+ const FormMessage=  ({term, setTerm, handleSubmit})=>{  
     return (
 <form>
 <Input

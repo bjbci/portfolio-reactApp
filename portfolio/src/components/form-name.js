@@ -1,6 +1,7 @@
 import Input from './input'
 
-const FormName=  ({term, setTerm, handleSubmit})=>{
+const FormName=  ({term, setTerm,handleSubmit})=>{
+//const FormName=  ({term, setTerm, handleSubmit})=>{  
     return (
 <form>
 <Input

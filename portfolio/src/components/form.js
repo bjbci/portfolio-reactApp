@@ -32,9 +32,9 @@ const Form= ({term, setTerm, handleSubmit})=>{
             type="text"
             /> */}
 
-<FormName>ENTER NAME</FormName>
-<FormEmail>ENTER EMAIL</FormEmail>   
-<FormMessage>ENTER MESSAGE</FormMessage>      
+<FormName className=''>ENTER NAME</FormName>
+<FormEmail className=''>ENTER EMAIL</FormEmail>   
+<FormMessage className=''>ENTER MESSAGE</FormMessage>      
 <Button>SUBMIT</Button>
 
         </form>
