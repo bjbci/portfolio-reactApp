@@ -1,10 +1,11 @@
+import React from 'react'
 import {useState} from 'react'
-import Container from './container'
-import Form from './form'
-import FormEmail from './form-email'
-import FormMessage from './form-message'
-import FormName from './form-name'
-import Button from './button-submit'
+import Container from '../components/container'
+import Form from '../components/form'
+import FormEmail from '../components/form-email'
+import FormMessage from '../components/form-message'
+import FormName from '../components/form-name'
+import Button from '../components/button-submit'
 
 const Contact= props=>{
     
