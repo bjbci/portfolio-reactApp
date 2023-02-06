@@ -2,9 +2,10 @@ import React from 'react'
 import {useState} from 'react'
 import Container from '../components/container'
 import Form from '../components/form'
-import FormEmail from '../components/form-email'
-import FormMessage from '../components/form-message'
-import FormName from '../components/form-name'
+// import FormEmail from '../components/form-email'
+// import FormMessage from '../components/form-message'
+// import FormName from '../components/form-name'
+import ContactForm from '../components/contact-form'
 import Button from '../components/button-submit'
 
 const Contact= props=>{
@@ -20,25 +21,11 @@ const submitForm=()=>{
         <Container className="mt-5 bg-success">
            <h2>CONTACT BRIAN</h2>
 
-            <FormName 
-            term={term}
-            setTerm={setTerm} 
-            handleSubmit={submitForm}
-            /> 
 
-            <FormEmail 
-            term={term}
-            setTerm={setTerm} 
-            handleSubmit={submitForm}
-            /> 
+        <ContactForm />
+          
 
-            <FormMessage
-            term={term}
-            setTerm={setTerm} 
-            handleSubmit={submitForm}
-            /> 
-
-            <Button>SUBMIT</Button> 
+            {/* <Button>SUBMIT</Button>  */}
 
 
         </Container> 

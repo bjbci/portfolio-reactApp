@@ -1,10 +1,10 @@
 //import Image
-import AstrologyApp from '../assets/astrology.jpg '
-import ConcertTickets from '../assets/concert-tickets.jpg '
-import  DailyPlanner from '../assets/daily-planner.jpg '
-import  OIP from '../assets/OIP.jpg '
-import  QuestionMark from '../assets/question-mark.jpg '
-import  Weather from '..assets/weather.jpg '
+import AstrologyApp from '../assets/astrology.jpg'
+import ConcertTickets from '../assets/concert-tickets.jpg'
+import  DailyPlanner from '../assets/daily-planner.jpg'
+import  OIP from '../assets/OIP.jpg'
+import  QuestionMark from '../assets/question-mark.jpg'
+import  Weather from '../assets/weather.jpg'
 
 
 
