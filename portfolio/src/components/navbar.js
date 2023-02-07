@@ -6,7 +6,7 @@ const Navbar= ({view, setView})=>{
 <nav className="navbar navbar-expand-lg navbar-light bg-success">
     <div className="container">
         <a className="navbar-brand" href="#">BRIAN</a>
-            <ul className="navbar-nav">
+            <div className="navbar-nav">
             <li className="nav-item">
                 <a 
                     onClick={() =>setView('about')}
@@ -43,7 +43,7 @@ const Navbar= ({view, setView})=>{
                 RESUME
                 </a>
             </li>
-             </ul>
+             </div>
      </div>
 </nav>
     )

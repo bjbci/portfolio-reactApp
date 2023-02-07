@@ -15,7 +15,10 @@ const Portfolio= props=>{
     return (
         <div className="apps">
             <h1>MY PORTFOLIO</h1>
-            <div className="app-list">
+            <div className="app-list" style={{
+                display:"flex",
+                flexWrap:"wrap"
+            }}>
                 {allApps.map(()=>{
                     return <img alt={allApps.name} src={allApps.image}/>
                 })}

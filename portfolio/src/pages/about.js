@@ -8,27 +8,61 @@ const About= props=>{
     }}>
         <>
         <div className='avatar-img'>
-        <img alt="Avatar" src={Avatar}/>
-    </div>
+            <img alt="Avatar" src={Avatar}
+            style={{
+                margin:'40px'}}/>
+        </div>
         </>
         <>
-        <div className="about-me"></div>
-            <h2>BRIAN</h2>
-            <div className="prompt"><p>An experienced cardiac cath lab nurse with expanding tech skills</p>
-        </div>
+        <div className="about-me" 
+         style={{
+            margin:'40px 0px 0px 0px',
+            padding:'0px'
+        }}>
 
-        <div className="skills">
+            <div>
+            <h2>BRIAN</h2>
+                <div className="prompt">
+                    <p>An experienced cardiac cath lab nurse with expanding tech skills. Brian has spent hundreds of hours over the last six months attempting to master the foundations and intricacies of numerous coding methods and coding languages.</p>
+                </div>
+
+            </div>
+        </div>
+        
+
+        <div className="skills"
+        style={{
+            margin:'40px 80px 0px 180px',
+            padding:'0px 100px 0px 20px'
+        }}>
             <h2>SKILLS</h2>
-            <ol className="skills-list">
-                <li className="skill-items">
-                    <h3>FRONT END</h3>
-                    <span>HTML CSS JS JQUERY BOOTSTRAP</span>
-                </li>
-                <li className="skill-items">
-                    <h3>BACK END</h3>
-                    <span>REACT PWA ORM EXPRESS.JS NODE.JS GRAPHQL NoSQL MONGOOSE MONGODB</span>
-                </li>
-            </ol>
+            <div className="skills-list">
+                <div className="skill-items">
+                    <h4>FRONT END</h4>
+                    <ul>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>JQUERY</li>
+                    <li>BOOTSTRAP</li>
+
+                    </ul>
+                </div>
+                <div className="skill-items">
+                    <h4>BACK END</h4>
+                    <ul>
+                    <li>REACT</li>
+                    <li>PWA</li>
+                    <li>ORM</li>
+                    <li>EXPRESS.JS</li>
+                    <li>NODE.JS</li>
+                    <li>GRAPHQL</li>
+                    <li>NoSQL</li>
+                    <li>MONGODB</li>
+
+                    </ul>
+                   
+                </div>
+            </div>
         </div>
         </>
     </div>

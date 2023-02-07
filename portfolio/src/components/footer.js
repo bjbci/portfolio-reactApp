@@ -14,21 +14,33 @@ const Footer= ({view,setVIew})=>{
 }}>
 <a 
  className="nav-link" 
- href="#"
+ href="https://github.com/bjbci?tab=repositories"
 >
- <i className="bi bi-github"></i>
+ <i className="bi bi-github"
+ style={{
+    color:'black',
+    fontSize:'40px'
+ }}></i>
  </a> 
 <a 
  className="nav-link"
 href="#"
 >
-<i className="bi bi-linkedin"></i>
+<i className="bi bi-linkedin"
+ style={{
+    color:'black',
+    fontSize:'40px'
+ }}></i>
 </a>
 <a 
  className="nav-link"
- href="#"
+ href="mailto:bajebi.bb@gmail.com"
  >
-<i className="bi bi-envelope" ></i>
+<i className="bi bi-envelope"
+ style={{
+    color:'black',
+    fontSize:'40px'
+ }} ></i>
  </a>
 </div>
 <div className="col">
