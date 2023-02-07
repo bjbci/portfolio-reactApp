@@ -1,22 +1,22 @@
-import React from 'react'
-import {useState} from 'react'
+// import React from 'react'
+// import {useState} from 'react'
 
-const CardApps= ({image, appName})=>{
-    return (
-       <div className="cards-apps">
+// const CardApps= ({image, appName})=>{
+//     return (
+//        <div className="cards-apps">
 
-           <div style={{backgroundImage: `url(${image})`}} className="background-image"></div>
-           <h2> {appName}</h2>
+//            <div style={{backgroundImage: `url(${image})`}} className="background-image"></div>
+//            <h2> {appName}</h2>
          
 
-       </div>
-
-    )
+//        </div>
+        
+//     )
     
-}
+// }
 
 
-export default CardApps
+// export default CardApps
 
 
 // <div class="card" style="width: 18rem;">
