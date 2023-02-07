@@ -1,28 +1,58 @@
 import React, {useState} from 'react'
-import Input from './input'
+
+
+import {validateEmail} from '../helpers/email-validate'
 
 export default function ContactForm(){
-    const [email,setEmail]=useState('')
     const [username,setUsername]=useState('')
-    const [messageSection, setMessageSection]=useState('')
+    const [email,setEmail]=useState('')
+    const [message, setMessage]=useState('')
+
+    const[errorMessage,setErrorMessage]=useState('')
 
     const handleChange=event=>{
         if(event.target.name==='username'){
             setUsername(event.target.value)
-        }else if(event.target.email==='email'){
+        }else if(event.target.name==='email'){
             setEmail(event.target.value)
-        }else if(event.target.value) {
-            setMessageSection(event.target.value)
+        }else  {
+            setMessage(event.target.value)
         }
     }
 
+    const handleSubmit = event => {
+        event.preventDefault()
+        console.log('submitting to server')
+        // fetch('/api/submit', {
+        //     method:'POST',
+        //     headers:{
+        //         'Content-Type':'application/json'
+        //     },
+        //     body:JSON.stringify({
+
+        //     })
+        // })
+        if(!validateEmail(email)){
+            setErrorMessage('Email is invalid. Please enter valid email address')
+            return
+        }
+        if(!username || !email || !message){
+            setErrorMessage('This FIeld Is Required')
+            return
+        }
+        setUsername('')
+        setEmail('')
+        setMessage('')
+    };
+
 return(
-    <form className='container'>
+    <>
+    <form className='container' onSubmit={handleSubmit}>
 
          <div className="mb-3">
             <label htmlFor="username"
             className="form-label">
-            Username: {username}</label>
+            Username: </label>
             <input 
             name="username" 
             value={username}
@@ -34,7 +64,7 @@ return(
         <div className="mb-3">
             <label htmlFor="email" 
             className="form-label">
-            Email address: {email}</label>
+            Email address: </label>
             <input
              name="email" 
              value={email}
@@ -42,23 +72,33 @@ return(
              type="email"
             className="form-control" />
         </div>
-        
+
          <div className="mb-3">
             <label htmlFor="message-section"
             className="form-label" >
-            Write your message here: {messageSection}
+            Write your message here:
             </label>
-            <input name="message-section"
-            value={messageSection}
+            <input
+             name="message-section"
+            value={message}
             onChange={handleChange}
             type="text" 
             className="form-control" />
-        </div>
-    {/* <button type="submit" className="btn btn-primary">Submit</button> */}
+       </div>
+
+        <button type="submit"
+            className="btn btn-primary">
+            Submit
+        </button>
      
-       
-    </form>
-    )
+     </form>
+    {errorMessage && (
+        <div>
+             <p className="error-text">{errorMessage}</p>
+        </div>
+    )}
+    </>
+    );
 }
 
 

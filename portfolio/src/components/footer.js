@@ -51,7 +51,10 @@ const Footer= ({view,setVIew})=>{
  <i className="bi bi-github"></i>
  </a> */}
 </div>
-<div className="col display:flex flex-direction:column justify-content:center align-items:center">
+<div className="col" style={{
+    display:"flex",
+    justifyContent:"space-around"
+}}>
 <a 
  className="nav-link" 
  href="#"
