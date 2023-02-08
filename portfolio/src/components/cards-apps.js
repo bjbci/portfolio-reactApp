@@ -1,21 +1,24 @@
-// import React from 'react'
-// import {useState} from 'react'
+import React from 'react'
+import {useState} from 'react'
 
-// const CardApps= ({image, appName})=>{
-//     return (
-//        <div className="cards-apps">
+const CardApps= ({cardApps})=>{
 
-//            <div style={{backgroundImage: `url(${image})`}} className="background-image"></div>
-//            <h2> {appName}</h2>
+    const{id,appName,image,text,githubLink,liveLink}=cardApps
+    return (
+       <div className="cardsApps" key={id}>
+        <img src=""
+
+           <div style={{backgroundImage: `url(${image})`}} className="background-image"></div>
+           <h2> {appName}</h2>
          
 
-//        </div>
+       </div>
         
-//     )
+    )
     
-// }
+}
 
 
-// export default CardApps
+export default CardApps
 
 

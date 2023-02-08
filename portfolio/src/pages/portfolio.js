@@ -8,14 +8,71 @@ import DailyPlanner from '../assets/daily-planner.jpg'
 import OIP from '../assets/OIP.jpg'
 import QuestionMark from '../assets/question-mark.jpg'
 import Weather from '../assets/weather.jpg'
-import {allApps} from '../helpers/allApps'
+import CardApps from '../components/cards-apps'
+// import {allApps} from '../helpers/allApps'
 
 
 const Portfolio= props=>{
+
+ const [allApps]=useState([
+
+     {
+         id:1,
+         appName: "Daily Astrology App ",
+         image: AstrologyApp,
+         alt:"astrology-zodiac-wheel ",
+         text:"DAILY ASTROLOGY APP FEATURING ZODIAC AND PHASES OF MERCURY ",
+         githubLink:"https://github.com/bjbci/projectOne.git" 
+     },
+     {
+         id:2,
+         appName: "Concert Seats App ",
+         image: ConcertTickets,
+         alt:"music-concert-stadium-view ",
+         text:"CONCERT EVENT SEAT RESERVATION APP ",
+         githubLink:"https://github.com/adriennecordell/musical-chairs.git ",
+         liveLink:" https://secret-hamlet-03727.herokuapp.com/"
+     },
+     {
+         id:3,
+         appName: "Daily Planner App ",
+         image: DailyPlanner,
+         alt:"daily-planner-pic ",
+         text:"DAILY PLANNER APP WITH COLOR CODED HOURS OF THE DAY ",
+         githubLink:"https://github.com/bjbci/week5_calendar.git "
+     },
+     {
+         id:4,
+         appName: "Text Editor App ",
+         image: OIP,
+         alt:"computer-with text on screen ",
+         text:"INSTALLED TEXT EDITOR ",
+         githubLink:"https://github.com/bjbci/another-text-editor.git "
+     },
+     {
+         id:5,
+         appName: "Project 3 App ",
+         image: QuestionMark,
+         alt:"image of a question mark ",
+         text:"FINAL BOOTCAMP PROJECT TO BE ADDED SOON. ",
+         githubLink:" "
+     },
+     {
+         id:6,
+         appName: "Weather App ",
+         image: Weather,
+         alt:"image of inclement weather ",
+         text:"CURRENT AND FIVE DAY WEATHER FORCAST ",
+         githubLink:"https://github.com/bjbci/weatherApp.git "
+     }
+
+ ])
+        
+
     return (
 //////////////////////////////////////////////////////////
 
-<>
+{/* <>
 
 <div className="container">
   <div className="row">
@@ -188,11 +245,29 @@ const Portfolio= props=>{
   </div>
 </div>
 
-</>
+</> */}
+//////////////////////////////////////////////////////
+///////////////////////////////////////////////////
+<Container 
+className="mt-5 bg-success"
+style={{borderRadius:"50px"}}
+>
+  
+
+
+<CardApps />
+  
+
+   
+
+
+</Container> 
+
+
 
 )
-
 }
+
 
 
 export default Portfolio
