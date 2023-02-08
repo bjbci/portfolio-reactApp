@@ -14,6 +14,7 @@ import {allApps} from '../helpers/allApps'
 const Portfolio= props=>{
     return (
 //////////////////////////////////////////////////////////
+
 <>
 <div className="container">
   <div className="row">
@@ -185,7 +186,9 @@ const Portfolio= props=>{
 
   </div>
 </div>
+
 </>
+
 )
 
 }

@@ -2,6 +2,7 @@ import React from 'react'
 
 const Resume= props=>{
     return (
+<div className="container">
 <section className="my-5">
 <div className="my-2">
         
@@ -32,16 +33,10 @@ const Resume= props=>{
 </ul>
 
 
-
-<h2>
-</h2>
-
-
-
 </div>
 </section>
 
-
+</div>
 
     )
     
