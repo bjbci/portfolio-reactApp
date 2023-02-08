@@ -4,18 +4,16 @@ const Resume= props=>{
     return (
 <section className="my-5">
 <div className="my-2">
-        {/* <p>
-        Download my <a href="https://www.linkedin.com/">resume</a>
-        </p> */}
+        
         <p> 
-        Download my <a href="https://github.com/bjbci/portfolio-reactApp/portfolio/Resume20200803.pdf">resume</a>
+        Download my <a href="https://github.com/bjbci/portfolio-reactApp/blob/main/portfolio/Resume20200803.pdf">resume</a>
         </p>
 <h2>EDUCATION</h2>
 <ul className="education">
     <li>UNIVERSITY OF WISCONSIN
          BS-NURSING 2000</li>
     <li>UNIVERSITY OF WISCONSIN BOOTCAMP
-        CERTIFICATE FULL STACK WEB DEVELOPMENT
+        CERTIFICATE FULL STACK WEB DEVELOPMENT 2023
     </li>
 </ul>
 

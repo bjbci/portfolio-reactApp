@@ -23,15 +23,7 @@ export default function ContactForm(){
     const handleSubmit = event => {
         event.preventDefault()
         console.log('submitting to server')
-        // fetch('/api/submit', {
-        //     method:'POST',
-        //     headers:{
-        //         'Content-Type':'application/json'
-        //     },
-        //     body:JSON.stringify({
-
-        //     })
-        // })
+     
         if(!validateEmail(email)){
             setErrorMessage('Email is invalid. Please enter valid email address')
             return

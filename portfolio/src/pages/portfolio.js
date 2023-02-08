@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
-import CardApps from '../components/cards-apps'
+
 //import Image
 import AstrologyApp from '../assets/astrology.jpg'
 import ConcertTickets from '../assets/concert-tickets.jpg'
@@ -192,39 +192,4 @@ const Portfolio= props=>{
 
 
 export default Portfolio
-        // <div className="apps">
-        //     <h1>MY PORTFOLIO</h1>
-        //     <div className="app-list" style={{
-        //         display:"flex",
-        //         flexWrap:"wrap"
-        //     }}>
-        //         {allApps.map(()=>{
-        //             return <img alt={allApps.name} src={allApps.image}/>
-        //         })}
-        //     <img alt="Astrology" src={AstrologyApp}/>
-        //    <img alt="Tickets" src={ConcertTickets}/>
-        //    <img alt="Project-3" src={DailyPlanner}/>
-        //    <img alt="Weather-App" src={OIP}/>
-        //    <img alt="Text-Editor" src={QuestionMark}/>
-        //    <img alt="Daily-Calendar"src={Weather} />
-
-        //     </div>
-        // </div>
-//////////////////////////////////////////////////////////
-//BOOTSTRAP BOOTSTRAP BOOTSTRAP BOOTSTRAP
-// <div className"card" style="width: 18rem;">
-//   <img src="..." className"card-img-top" alt="...">
-//   <div className"card-body">
-//     <h5 className"card-title">Astrology App</h5>
-//     <p className"card-text">Daily Astrology Info.</p>
-//   </div>
-//   <ul className"list-group list-group-flush">
-//     <li className"list-group-item">An item</li>
-//     <li className"list-group-item">A second item</li>
-//     <li className"list-group-item">A third item</li>
-//   </ul>
-//   <div className"card-body">
-//     <a href="#" className"card-link">Card link</a>
-//     <a href="#" className"card-link">Another link</a>
-//   </div>
-// </div>
+ 
