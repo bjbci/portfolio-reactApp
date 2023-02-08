@@ -47,7 +47,11 @@ export default function ContactForm(){
 
 return(
     <>
-    <form className='container' onSubmit={handleSubmit}>
+    <form className='container' onSubmit={handleSubmit}
+    style={{
+        padding:"50px"
+    }}
+    >
 
          <div className="mb-3">
             <label htmlFor="username"

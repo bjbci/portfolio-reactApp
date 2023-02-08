@@ -8,7 +8,7 @@ const Resume= props=>{
         Download my <a href="https://www.linkedin.com/">resume</a>
         </p> */}
         <p> 
-        Download my <a href="https:??????????????????/">resume</a>
+        Download my <a href="https://github.com/bjbci/portfolio-reactApp/portfolio/Resume20200803.pdf">resume</a>
         </p>
 <h2>EDUCATION</h2>
 <ul className="education">

@@ -132,6 +132,7 @@ const Portfolio= props=>{
         <div className="card" style={{width: "18rem",margin:"10px",backgroundColor:"#198754"}}>
             <img src={QuestionMark}
             className="card-img-top" 
+            // style={{height:"175px"}}
             alt="image of a question mark"/>
         <div className="card-body">
             <h5 className="card-title"

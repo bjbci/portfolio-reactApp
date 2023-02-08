@@ -2,9 +2,6 @@ import React from 'react'
 import {useState} from 'react'
 import Container from '../components/container'
 import Form from '../components/form'
-// import FormEmail from '../components/form-email'
-// import FormMessage from '../components/form-message'
-// import FormName from '../components/form-name'
 import ContactForm from '../components/contact-form'
 import Button from '../components/button-submit'
 
@@ -18,7 +15,10 @@ const submitForm=()=>{
 
 }
      return (
-        <Container className="mt-5 bg-success">
+        <Container 
+        className="mt-5 bg-success"
+        style={{borderRadius:"50px"}}
+        >
            <h2>CONTACT BRIAN</h2>
 
 
