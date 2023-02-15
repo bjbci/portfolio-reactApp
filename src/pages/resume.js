@@ -7,7 +7,7 @@ const Resume= props=>{
 <div className="my-2">
         
         <p> 
-        Download my <a href="https://github.com/bjbci/portfolio-reactApp/Resume202008031.pdf">resume</a>
+        Download my <a href="https://github.com/bjbci/portfolio-reactApp/blob/main/Resume202008031.pdf">resume</a>
         </p>
 <h2>EDUCATION</h2>
 <ul className="education">
