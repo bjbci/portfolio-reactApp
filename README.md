@@ -40,7 +40,3 @@ undefined
 [bajebi.bb@gmail.com](emailme@aol.com)
 ## github pages link::
 [none]
-<<<<<<< HEAD
-=======
-
->>>>>>> 0f397b26e63974b7705efd14abfa038fb65c9156
