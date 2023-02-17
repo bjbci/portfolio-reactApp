@@ -39,4 +39,4 @@ undefined
 ## Email
 [bajebi.bb@gmail.com](emailme@aol.com)
 ## github pages link::
-[none]
+[https://bjbci.github.io/portfolio-reactApp]
