@@ -30,13 +30,10 @@ This app will be deployed on github pages. The navbar on the top of the page wil
 ## How do you install it
 It is deployed on github pages.  If running the code in an editor-on the command line type: npm start.
 ## License
-undefined
 none
-## Contributors
-undefined
 ## Github
 [https://github.com/bjbci](https://github.com/https://github.com/bjbci)
 ## Email
 [bajebi.bb@gmail.com](emailme@aol.com)
 ## github pages link::
-[none]
+[https://bjbci.github.io/portfolio-reactApp]
